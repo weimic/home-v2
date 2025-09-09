@@ -1,4 +1,5 @@
 import Image from "next/image";
+import blobgun from '@/public/images/blobgun.png';
 
 
 export default function Blob() {
@@ -17,7 +18,7 @@ export default function Blob() {
             </div>
         </div>
         <Image 
-            src="/images/blobgun.png" 
+            src={blobgun}
             alt="Player" 
             width={475} 
             height={576} 

@@ -17,22 +17,26 @@ import {
   TabsTrigger,
 } from "@/components/ui/tabs"
 
-export default function TabsDemo() {
+export function TabsDemo() {
   return (
     <div className="flex w-full max-w-sm flex-col gap-6">
-      <Tabs defaultValue="authors">
+      <Tabs defaultValue="account">
         <TabsList>
-          <TabsTrigger value="authors">Authors</TabsTrigger>
-          <TabsTrigger value="about">About</TabsTrigger>
+          <TabsTrigger value="account">Account</TabsTrigger>
+          <TabsTrigger value="password">Password</TabsTrigger>
         </TabsList>
-        <TabsContent value="authors">
+        <TabsContent value="account">
           <Card>
             <CardHeader>
-              <CardTitle>Authors</CardTitle>
+              <CardTitle>Account</CardTitle>
+              <CardDescription>
+                Make changes to your account here. Click save when you&apos;re
+                done.
+              </CardDescription>
             </CardHeader>
             <CardContent className="grid gap-6">
               <div className="grid gap-3">
-                Alexander Song
+                <Label htmlFor="tabs-demo-name">Name</Label>
               </div>
               <div className="grid gap-3">
                 <Label htmlFor="tabs-demo-username">Username</Label>
@@ -43,22 +47,21 @@ export default function TabsDemo() {
             </CardFooter>
           </Card>
         </TabsContent>
-        <TabsContent value="about">
+        <TabsContent value="password">
           <Card>
             <CardHeader>
-              <CardTitle>About</CardTitle>
+              <CardTitle>Password</CardTitle>
               <CardDescription>
-                Fun game.
+                Change your password here. After saving, you&apos;ll be logged
+                out.
               </CardDescription>
             </CardHeader>
             <CardContent className="grid gap-6">
               <div className="grid gap-3">
-                <Label htmlFor="tabs-demo-current">Size</Label>
-                181 MB
+                <Label htmlFor="tabs-demo-current">Current password</Label>
               </div>
               <div className="grid gap-3">
-                <Label htmlFor="tabs-demo-new">Languages & Libraries </Label>
-                Java, Swing
+                <Label htmlFor="tabs-demo-new">New password</Label>
               </div>
             </CardContent>
             <CardFooter>
