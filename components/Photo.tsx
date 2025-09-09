@@ -5,7 +5,7 @@ export default function Photo() {
         <>
             <div className="justify-end">
                 <Image 
-                    src="/images/home-v2/gradhappy.jpg" 
+                    src="@/images/gradhappy.jpg" 
                     alt="Graduation!" 
                     width={475} 
                     height={576} 
