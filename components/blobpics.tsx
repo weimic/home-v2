@@ -8,6 +8,17 @@ import {
 import Image from "next/image";
 import { ImageProps } from "next/image";
 
+import b1sg from '@/public/images/b1sg.gif';
+import b1s1 from '@/public/images/b1s1.png';
+import b1s2 from '@/public/images/b1s2.png';
+import b1s3 from '@/public/images/b1s3.png';
+import b1s4 from '@/public/images/b1s4.png';
+
+
+
+
+
+
 function Pic({...props}: ImageProps) {
     return(
             <Image
@@ -30,35 +41,35 @@ export default function BlobPics() {
                 <CarouselContent>
                     <CarouselItem>
                         <Pic
-                            src="/images/b1sg.gif" 
+                            src={b1sg}
                             alt="Gameplay" 
                         />
                     </CarouselItem>
                     
                     <CarouselItem>
                         <Pic
-                            src="/images/b1s1.png" 
+                            src={b1s1}
                             alt="Gameplay" 
                         />
                     </CarouselItem>
 
                     <CarouselItem>
                         <Pic
-                            src="/images/b1s2.png" 
+                            src={b1s2}
                             alt="Gameplay" 
                         />
                     </CarouselItem>
 
                     <CarouselItem>
                         <Pic
-                            src="/images/b1s3.png" 
+                            src={b1s3}
                             alt="Gameplay" 
                         />
                     </CarouselItem>
 
                     <CarouselItem>
                         <Pic
-                            src="/images/b1s4.png" 
+                            src={b1s4}
                             alt="Gameplay" 
                         />
                     </CarouselItem>

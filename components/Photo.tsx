@@ -6,7 +6,7 @@ export default function Photo() {
     return (
         <>
             <div className="justify-end">
-                pray
+                pray2
                 <Image 
                     src={gradhappy}
                     alt="Graduation!" 
