@@ -1,6 +1,7 @@
 {
   "name": "personal",
   "version": "0.1.0",
+  "homepage":"https://weimic.github.io/home-v2",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
