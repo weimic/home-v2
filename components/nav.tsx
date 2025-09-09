@@ -37,7 +37,7 @@ export default function CommandDialogDemo() {
   }, [])
   return (
     <>
-      <div className="ml-52 -mt-63 flex animate-fadein">
+      <div className="mt-100 -ml-102 lg:mt-137 lg:-ml-129 flex animate-fadein">
           <Button variant="outline" onClick={() => setOpen((open) => !open)}>Win + J</Button>
       </div>
 

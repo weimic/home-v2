@@ -31,11 +31,11 @@ export default function BlobTab() {
               <CardTitle>Authors</CardTitle>
             </CardHeader>
             <CardContent className="grid gap-6">
-              Alexander Song
+              <div className="">
+                Alexander Song
+                Shirley Xiong
+              </div>
             </CardContent>
-            <CardFooter>
-              
-            </CardFooter>
           </Card>
         </TabsContent>
         <TabsContent value="about">

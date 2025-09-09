@@ -6,13 +6,12 @@ export default function Photo() {
     return (
         <>
             <div className="justify-end">
-                pray2
                 <Image 
                     src={gradhappy}
                     alt="Graduation!" 
                     width={475} 
                     height={576} 
-                    className="backface rounded ml-100 mt-50 animate-revolveXY shadow-xl object-cover"/>
+                    className="backface rounded -mt-80 ml-40 lg:ml-110 lg:mt-50 animate-revolveXY shadow-xl object-cover"/>
             </div>
         </>
     );
