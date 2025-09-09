@@ -1,12 +1,14 @@
+import React from 'react';
 import Image from "next/image";
+import gradhappy from '@/public/images/gradhappy.jpg';
 
 export default function Photo() {
     return (
         <>
             <div className="justify-end">
-                hi
+                pray
                 <Image 
-                    src="/images/gradhappy.jpg" 
+                    src={gradhappy}
                     alt="Graduation!" 
                     width={475} 
                     height={576} 
@@ -14,4 +16,4 @@ export default function Photo() {
             </div>
         </>
     );
-}
+}   
