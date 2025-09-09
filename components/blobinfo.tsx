@@ -28,44 +28,35 @@ export default function BlobTab() {
         <TabsContent value="authors">
           <Card>
             <CardHeader>
-              <CardTitle>Account</CardTitle>
-              <CardDescription>
-                Make changes to your account here. Click save when you&apos;re
-                done.
-              </CardDescription>
+              <CardTitle>Authors</CardTitle>
             </CardHeader>
             <CardContent className="grid gap-6">
-              <div className="grid gap-3">
-                <Label htmlFor="tabs-demo-name">Name</Label>
-              </div>
-              <div className="grid gap-3">
-                <Label htmlFor="tabs-demo-username">Username</Label>
-              </div>
+              Alexander Song
             </CardContent>
             <CardFooter>
-              <Button>Save changes</Button>
+              
             </CardFooter>
           </Card>
         </TabsContent>
         <TabsContent value="about">
           <Card>
             <CardHeader>
-              <CardTitle>Password</CardTitle>
+              <CardTitle>About</CardTitle>
               <CardDescription>
-                Change your password here. After saving, you&apos;ll be logged
-                out.
+                Fun game.
               </CardDescription>
             </CardHeader>
             <CardContent className="grid gap-6">
               <div className="grid gap-3">
-                <Label htmlFor="tabs-demo-current">Current password</Label>
+                <Label htmlFor="tabs-demo-current">Languages & Libraries</Label>
+                Java, Swing
               </div>
               <div className="grid gap-3">
-                <Label htmlFor="tabs-demo-new">New password</Label>
+                <Label htmlFor="tabs-demo-new">File Size</Label>
+                181 MB
               </div>
             </CardContent>
             <CardFooter>
-              <Button>Save password</Button>
             </CardFooter>
           </Card>
         </TabsContent>
