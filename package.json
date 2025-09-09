@@ -7,7 +7,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
+    "build": "next build --output public",
     "start": "next start"
   },
   "dependencies": {
