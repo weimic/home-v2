@@ -11,7 +11,7 @@ export default function Photo() {
                     alt="Graduation!" 
                     width={475} 
                     height={576} 
-                    className=" backface rounded -mt-80 ml-10 lg:ml-110 lg:mt-50 animate-revolveXY shadow-xl object-cover"/>
+                    className="max-lg:w-50 backface rounded -mt-87 ml-15 lg:ml-110 lg:mt-50 animate-revolveXY shadow-xl object-cover"/>
             </div>
         </>
     );
