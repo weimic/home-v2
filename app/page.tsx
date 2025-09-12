@@ -11,7 +11,10 @@ export default function Home() {
           <Main/>
           <NavBar/>
         </div>
-        <Sphere/>
+        <div className="w-full">
+          <Sphere/>
+        </div>
+        
       </div>
       
     </>

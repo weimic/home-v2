@@ -8,7 +8,7 @@ import {
 import Image from "next/image";
 import { ImageProps } from "next/image";
 
-import b1sg from '@/public/images/b1sg.gif';
+import b1sg from '@/public/images/b1sgAR.gif';
 import b1s1 from '@/public/images/b1s1.png';
 import b1s2 from '@/public/images/b1s2.png';
 import b1s3 from '@/public/images/b1s3.png';
@@ -22,18 +22,24 @@ import b1s4 from '@/public/images/b1s4.png';
 function Pic({...props}: ImageProps) {
     return(
             <Image
-            className="w-full h-full object-cover"
-            width={593}
-            height={447}  
+            className="w-full h-full object-cover border-3 border-red-300 rounded"
+            width={1174}
+            height={858}  
                 {...props}
                 /> 
         
     );
 }
+// Top off => 860
+// Sides -6, end 1174
+// Bottom off => 858
+
+// 1174 x 858
+// => 587 x 429
 
 export default function BlobPics() {
     return(
-        <div className="mt-50 ml-50 flex w-200 border-2">
+        <div className="mt-50 ml-50 flex w-200">
             <Carousel
                 opts={{
                     loop:true,
