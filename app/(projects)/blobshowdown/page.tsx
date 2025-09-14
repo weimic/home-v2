@@ -21,9 +21,6 @@ export default function BlobShowdown() {
                 </div>
                 <Footer/>
             </div>
-            
-            
-            
         </>
     );
     
