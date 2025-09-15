@@ -11,6 +11,7 @@ import {
   House,
   Circle,
   User,
+  Ghost
 } from "lucide-react"
 import {
   CommandDialog,
@@ -37,7 +38,7 @@ export default function CommandDialogDemo() {
   }, [])
   return (
     <>
-      <div className="mt-65 -ml-72 lg:mt-137 lg:-ml-129 flex animate-fadein">
+      <div className="flex animate-fadein">
           <Button variant="outline" onClick={() => setOpen((open) => !open)}>Win + J</Button>
       </div>
 
@@ -52,15 +53,15 @@ export default function CommandDialogDemo() {
               <CommandItem className="cursor-pointer">
                 <House style={{color:'var(--icon-color)'}}/>
                 <span>Home</span>
-                <CommandShortcut>⌘P</CommandShortcut>
+                <CommandShortcut></CommandShortcut>
               </CommandItem>
             </Link>
             
-            <Link href="/profile">
+            <Link href="/about">
               <CommandItem className="cursor-pointer">
                 <User style={{color:'var(--icon-color)'}}/>
                 <span>About</span>
-                <CommandShortcut>⌘P</CommandShortcut>
+                <CommandShortcut></CommandShortcut>
               </CommandItem>
             </Link>
             
@@ -72,7 +73,14 @@ export default function CommandDialogDemo() {
               <CommandItem className="cursor-pointer">
                 <Circle style={{color:'var(--icon-color)'}}/>
                 <span>Blob Showdown</span>
-                <CommandShortcut>⌘P</CommandShortcut>
+                <CommandShortcut></CommandShortcut>
+              </CommandItem>
+            </Link>
+            <Link href="/ghostbust">
+              <CommandItem className="cursor-pointer">
+                <Ghost style={{color:'var(--icon-color)'}}/>
+                <span>GhostBust</span>
+                <CommandShortcut></CommandShortcut>
               </CommandItem>
             </Link>
 

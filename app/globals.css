@@ -129,6 +129,7 @@
   --animate-revolve: revolve 150s ease-in-out infinite;
   --animate-revolveXY: revolveXY 150s ease-in-out infinite;
   --animate-revolveX: revolveX 10s ease-in-out infinite;
+  --animate-idle: idle 4s ease-in-out infinite;
   
   @keyframes revolveXY {
     from{
@@ -165,6 +166,18 @@
       opacity: 1;
     }
 
+  }
+
+  @keyframes idle {
+    0%{
+      transform:translateY(0);
+    }
+    50%{
+      transform:translateY(-20);
+    }
+    100%{
+      transform:translateY(0);
+    }
   }
 }
 

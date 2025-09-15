@@ -9,7 +9,6 @@ export default function Home() {
       <div className="flex justify-start gap-100 max-lg:flex-col">
         <div className="flex">
           <Main/>
-          <NavBar/>
         </div>
         <div className="">
           <Sphere/>
