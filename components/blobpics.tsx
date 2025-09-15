@@ -39,7 +39,7 @@ function Pic({...props}: ImageProps) {
 
 export default function BlobPics() {
     return(
-        <div className="mt-50 ml-50 flex w-200">
+        <div className="flex w-200">
             <Carousel
                 opts={{
                     loop:true,

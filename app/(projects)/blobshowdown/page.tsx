@@ -9,20 +9,20 @@ import Footer from '@/components/Footer.tsx';
 export default function BlobShowdown() {
     return (
         <>
-            <div className="flex-col">
-                <Blob/> 
-                <div className="ml-52 -mt-42">
-                    <NavBar/>
+            <div className="flex-col flex items-center justify-center gap-30">
+                <div className = "flex h-[100%] flex-col">
+                    <Blob/>
                 </div>
                 
-                <div className="flex lg:gap-60 w-full max-lg:flex-col items-center">
-                    <div className="flex justify-center-safe">
+                <div className="flex lg:gap-60 w-full max-lg:flex-col justify-center items-center">
+                    <div className="flex">
                         <BlobPics/>  
                     </div>
                     <BlobTab/>
                 </div>
-                <Footer/>
+                
             </div>
+            <Footer/>
         </>
     );
     

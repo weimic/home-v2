@@ -7,7 +7,7 @@ export default function Main() {
             About Me!
         </div>
         <div className="text-[16px] lg:text-[20px] text-alt-foreground -mt-8">
-            Computer Science @ Georgia Tech
+            <Link href="/MichaelWeiResume-Fall25.pdf">Computer Science @ Georgia Tech</Link>
             
         </div>
     </div>

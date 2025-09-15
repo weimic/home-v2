@@ -125,7 +125,7 @@
 }
 
 @theme {
-  --animate-fadein: fadeIn 5s ease-in-out 1;
+  --animate-fadein: fadeIn 2s ease-in-out 1;
   --animate-revolve: revolve 150s ease-in-out infinite;
   --animate-revolveXY: revolveXY 150s ease-in-out infinite;
   --animate-revolveX: revolveX 10s ease-in-out infinite;

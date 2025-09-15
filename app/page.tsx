@@ -6,7 +6,7 @@ import Sphere from "@/components/Photo";
 export default function Home() {
   return (
     <>
-      <div className="flex justify-start gap-100 max-lg:flex-col">
+      <div className="flex items-center justify-center gap-100 max-lg:flex-col">
         <div className="flex">
           <Main/>
         </div>

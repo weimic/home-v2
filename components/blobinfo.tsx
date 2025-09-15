@@ -19,7 +19,7 @@ import {
 
 export default function BlobTab() {
     return (
-        <div className="mt-60">
+        <div className="">
             <Tabs defaultValue="about">
         <TabsList>
           <TabsTrigger value="about"><FileText/>About</TabsTrigger>
