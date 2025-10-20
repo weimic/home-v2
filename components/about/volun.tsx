@@ -1,17 +1,20 @@
-export default function Education() {
+import Link from 'next/link';
+
+// not rly sure what to put here.. so.
+export default function Volun() {
  return (
-    <div className="flex flex-col w-[40%] min-w-md p-4 gap-2">
+    <div className="flex flex-col w-[40%] min-w-lg p-4 gap-2">
         <div className="font-semibold text-[40px]"> 
-                Education
+                Languages
         </div>
         <div className="flex flex-row justify-between">
-            <div className="flex flex-col ">
+            <div className="flex flex-col">
                 <div className=" ml-1">
                     <div className="font-semibold text-[15px] text-foreground">
-                        Georgia Institute of Technology
+                        <Link href="https://devpost.com/software/tidbit-4yacw1" target="_blank" rel="noopener noreferrer">TidBit Mobile App</Link>
                     </div>
                     <div className="font-normal text-[15px] text-alt-foreground ">
-                        Bachelor of Science in Computer Science
+                        HackGT
                     </div>
                     
                 </div>
@@ -19,10 +22,10 @@ export default function Education() {
 
             <div className="flex flex-col text-right">
                 <div className="font-semibold text-[15px] text-foreground">
-                    May 2028
+                    Sept. 2025
                 </div>
                 <div className="font-normal text-[15px] text-alt-foreground ">
-                    First-Year
+                    React Native, Expo, Firebase, Gemini API, OpenAI API
                 </div>
             </div>
         </div>
@@ -31,34 +34,23 @@ export default function Education() {
             <div className="flex flex-col ">
                 <div className=" ml-1">
                     <div className="font-semibold text-[15px] text-foreground">
-                        Ward Melville High School
+                        Blue's Walk Windows Game
                     </div>
                     <div className="font-normal text-[15px] text-alt-foreground ">
-                        Honors Graduate, Excellence in Data Structures
+                        ATLJam
                     </div>
                 </div>
             </div>
 
             <div className="flex flex-col text-right">
                 <div className="font-semibold text-[15px] text-foreground">
-                    June 2025
+                    Oct. 2025
                 </div>
                 <div className="font-normal text-[15px] text-alt-foreground ">
-                    GPA: 104.6
+                    Godot, GDScript
                 </div>
             </div>
         </div>
-
-        <div className="ml-1 flex flex-col">
-            <div className="font-semibold text-[15px] text-foreground">
-                Relevant Coursework Taken
-            </div>
-            <div className="font-normal text-[15px] text-alt-foreground overflow-wrap w-[100%] ">
-                Differential Equations, Data Structures, Multivariable Calculus, Linear Algebra, Introduction to Object-Oriented Programming
-            </div>
-        </div>
-
-
     </div>
     
     

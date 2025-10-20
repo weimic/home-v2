@@ -14,7 +14,7 @@ export default function BlobShowdown() {
                     <Blob/>
                 </div>
                 
-                <div className="flex lg:gap-60 w-full max-lg:flex-col justify-center items-center">
+                <div className="flex flex-wrap gap-y-20 gap-x-60 w-full justify-center items-center">
                     <div className="flex">
                         <BlobPics/>  
                     </div>

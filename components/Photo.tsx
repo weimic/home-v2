@@ -5,7 +5,7 @@ import gradhappy from '@/public/images/gradhappy.jpg';
 export default function Photo() {
     return (
         <>
-            <div className="w-100%">
+            <div className="w-[100%]">
                 <Image 
                     src={gradhappy}
                     alt="Graduation!" 

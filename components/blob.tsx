@@ -5,28 +5,29 @@ import NavBar from '@/components/nav.tsx';
 
 export default function Blob() {
  return (
-    <div className="flex flex-row gap-60">
-        <div className="font-semibold mt-30 animate-fadein flex-col">
-            <div className="text-[150px] -ml-2"> 
+    <div className="w-[100%] flex flex-wrap gap-x-60 mt-30 justify-center">
+        <div className="font-semibold animate-fadein flex-col">
+            <div className="text-[80px] lg:text-[150px] lg:-ml-2"> 
                 Blob
             </div>
             <br/>
-            <div className="text-[150px] -mt-25">
+            <div className="text-[80px] lg:text-[150px] -mt-18">
                 Showdown.
             </div>
-            <div className="text-[20px] text-alt-foreground -mt-8 ml-2">
+            <div className="text-[20px] text-alt-foreground -mt-4 lg:-mt-8 lg:ml-2">
                 May - July 2024
             </div>
             <div className="ml-2 mt-3">
                 <NavBar/>
             </div>
         </div>
-        <Image 
-            src={blobgun}
-            alt="Player" 
-            width={475} 
-            height={576} 
-            className="backface justify-self-center mt-50 object-cover animate-revolveX"/>
+        <div className="w-[400px] h-[400px] lg:w-[600px] lg:h-[600px]">
+            <Image 
+                src={blobgun}
+                alt="Player" 
+                className="animate-revolveX"/>
+        </div>
+        
     </div>
     
     

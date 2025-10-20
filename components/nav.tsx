@@ -11,7 +11,11 @@ import {
   House,
   Circle,
   User,
-  Ghost
+  Ghost,
+  FileText,
+  Github,
+  Linkedin,
+  Instagram
 } from "lucide-react"
 import {
   CommandDialog,
@@ -64,6 +68,14 @@ export default function CommandDialogDemo() {
                 <CommandShortcut></CommandShortcut>
               </CommandItem>
             </Link>
+
+            <Link href="/MichaelWeiResume-Fall25.pdf" target="_blank" rel="noopener noreferrer">
+              <CommandItem className="cursor-pointer">
+                <FileText style={{color:'var(--icon-color)'}}/>
+                <span>Resume</span>
+                <CommandShortcut></CommandShortcut>
+              </CommandItem>
+            </Link>
             
           </CommandGroup>
           <CommandSeparator />
@@ -85,6 +97,36 @@ export default function CommandDialogDemo() {
             </Link>
 
           </CommandGroup>
+
+          <CommandSeparator />
+
+          <CommandGroup heading="Accounts">
+            <Link href="https://github.com/weimic/" target="_blank" rel="noopener noreferrer">
+              <CommandItem className="cursor-pointer">
+                <Github style={{color:'var(--icon-color)'}}/>
+                <span>GitHub</span>
+                <CommandShortcut></CommandShortcut>
+              </CommandItem>
+            </Link>
+            
+            <Link href="https://www.instagram.com/weiimic/" target="_blank" rel="noopener noreferrer">
+              <CommandItem className="cursor-pointer">
+                <Instagram style={{color:'var(--icon-color)'}}/>
+                <span>Instagram</span>
+                <CommandShortcut></CommandShortcut>
+              </CommandItem>
+            </Link>
+
+            <Link href="https://linkedin.com/in/weimic/" target="_blank" rel="noopener noreferrer">
+              <CommandItem className="cursor-pointer">
+                <Linkedin style={{color:'var(--icon-color)'}}/>
+                <span>Linkedin</span>
+                <CommandShortcut></CommandShortcut>
+              </CommandItem>
+            </Link>
+            
+          </CommandGroup>
+
           <CommandSeparator />
 
           <CommandGroup heading="Settings">
@@ -104,6 +146,7 @@ export default function CommandDialogDemo() {
             </CommandItem>
             
           </CommandGroup>
+
         </CommandList>
       </CommandDialog>
     </>

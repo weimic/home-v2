@@ -39,7 +39,7 @@ function Pic({...props}: ImageProps) {
 
 export default function BlobPics() {
     return(
-        <div className="flex w-200">
+        <div className="flex w-[350px] lg:w-200">
             <Carousel
                 opts={{
                     loop:true,
