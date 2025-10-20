@@ -1,6 +1,6 @@
 export default function Education() {
  return (
-    <div className="flex flex-col w-[40%] min-w-md p-4 gap-2">
+    <div className="flex flex-col w-[40%] min-w-sm p-4 gap-2">
         <div className="font-semibold text-[40px]"> 
                 Education
         </div>

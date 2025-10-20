@@ -2,9 +2,9 @@ import Link from 'next/link';
 
 export default function Proj() {
  return (
-    <div className="flex flex-col w-[40%] min-w-md p-4 gap-2">
+    <div className="flex flex-col w-[40%] min-w-sm p-4 gap-2">
         <div className="font-semibold text-[40px]"> 
-                Competition Projects
+                Competitions
         </div>
         {/* Module v2 */}
         <div className="flex flex-col ml-1">
@@ -22,7 +22,7 @@ export default function Proj() {
                     HackGT
                 </div>
                 <div className="font-normal text-[15px] text-alt-foreground text-right">
-                    React Native, Expo, Firebase, Gemini API, OpenAI API
+                    React Native, Expo, Firebase, Gemini & OpenAI API
                 </div>
             </div>
         </div>
