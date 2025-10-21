@@ -26,24 +26,23 @@ export default function Education() {
                 </div>
             </div>
         </div>
-        
-        <div className="flex flex-row justify-between">
-            <div className="flex flex-col ">
-                <div className=" ml-1">
-                    <div className="font-semibold text-[15px] text-foreground">
-                        Ward Melville High School
-                    </div>
-                    <div className="font-normal text-[15px] text-alt-foreground ">
-                        Honors Graduate, Excellence in Data Structures
-                    </div>
+
+        {/* Module v2 */}
+        <div className="flex flex-col ml-1">
+            <div className="flex flex-row justify-between">
+                <div className="font-semibold text-[15px] text-foreground">
+                    Ward Melville High School
+                </div>
+                <div className="font-semibold text-[15px] text-foreground text-right">
+                    June 2025
                 </div>
             </div>
 
-            <div className="flex flex-col text-right">
-                <div className="font-semibold text-[15px] text-foreground">
-                    June 2025
-                </div>
+            <div className="flex flex-row justify-between">
                 <div className="font-normal text-[15px] text-alt-foreground ">
+                    Honors Graduate, Excellence in Data Structures
+                </div>
+                <div className="font-normal text-[15px] text-alt-foreground text-right">
                     GPA: 104.6
                 </div>
             </div>

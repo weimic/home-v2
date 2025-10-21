@@ -31,7 +31,7 @@ export default function BlobTab() {
               <CardTitle className="flex"><FileText size={16} className="mr-1"/>About</CardTitle>
               <CardDescription className="text-alt-foreground">
                 GhostBust is a 2-dimensional collection game developed as a summer project. 
-                A ghostbuster maneuvers a haunted room using WASD to move and left-click to vaccuum. 
+                A ghostbuster maneuvers a haunted room using WASD to move and left-click to vacuum. 
                 Collect as many ghosts as you can in the timeframe!
               </CardDescription>
             </CardHeader>
