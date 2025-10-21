@@ -9,10 +9,9 @@ export default function Main() {
                 Me!
             </div>
         </div>
-        
+
         <div className="text-[16px] lg:text-[20px] text-alt-foreground -mt-3 lg:-mt-10">
             Michael Yu Wei | Computer Science @ Georgia Tech
-            
         </div>
     </div>
  );
