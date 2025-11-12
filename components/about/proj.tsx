@@ -6,27 +6,28 @@ export default function Proj() {
         <div className="font-semibold text-[40px]"> 
                 Competitions
         </div>
+
         {/* Module v2 */}
         <div className="flex flex-col ml-1">
             <div className="flex flex-row justify-between">
                 <div className="font-semibold text-[15px] text-foreground underline">
-                    <Link href="https://devpost.com/software/tidbit-4yacw1" target="_blank" rel="noopener noreferrer">TidBit Mobile Application</Link>
+                    <Link href="https://devpost.com/software/sprout-u91sxf" target="_blank" rel="noopener noreferrer">Sprout Website</Link>
                 </div>
                 <div className="font-semibold text-[15px] text-foreground text-right">
-                    Sept. 2025
+                    Nov. 2025
                 </div>
             </div>
 
             <div className="flex flex-row justify-between">
                 <div className="font-normal text-[15px] text-alt-foreground ">
-                    HackGT
+                    AI ATL
                 </div>
                 <div className="font-normal text-[15px] text-alt-foreground text-right">
-                    React Native, Expo, Firebase, Gemini & OpenAI API
+                    React, Next.js, Firebase, Gemini API
                 </div>
             </div>
         </div>
-        
+
         <div className="flex flex-row justify-between">
             <div className="flex flex-col ">
                 <div className=" ml-1">
@@ -45,6 +46,26 @@ export default function Proj() {
                 </div>
                 <div className="font-normal text-[15px] text-alt-foreground ">
                     Godot, GDScript
+                </div>
+            </div>
+        </div>
+        {/* Module v2 */}
+        <div className="flex flex-col ml-1">
+            <div className="flex flex-row justify-between">
+                <div className="font-semibold text-[15px] text-foreground underline">
+                    <Link href="https://devpost.com/software/tidbit-4yacw1" target="_blank" rel="noopener noreferrer">TidBit Mobile Application</Link>
+                </div>
+                <div className="font-semibold text-[15px] text-foreground text-right">
+                    Sep. 2025
+                </div>
+            </div>
+
+            <div className="flex flex-row justify-between">
+                <div className="font-normal text-[15px] text-alt-foreground ">
+                    HackGT
+                </div>
+                <div className="font-normal text-[15px] text-alt-foreground text-right">
+                    React Native, Expo, Firebase, Gemini & OpenAI API
                 </div>
             </div>
         </div>
