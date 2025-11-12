@@ -11,7 +11,7 @@ import Image from 'next/image';
 
 export default function About() {
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen flex flex-col justify-between">
             <div className="flex flex-col justify-center items-center gap-x-10 -mt-10">
                 <div className = "flex flex-wrap justify-between justify-center gap-x-60 gap-y-5 mt-40">
                     <div className = "flex h-[100%] flex-col animate-fadein">
@@ -29,7 +29,7 @@ export default function About() {
                     <Edu/>
                     <Act/>
                 </div>
-                <div className="flex flex-wrap justify-center gap-x-20">
+                <div className="flex flex-wrap justify-center w-[50%] gap-x-20">
                     <Proj/>
                     {/* <Volun/> */}
                 </div>
