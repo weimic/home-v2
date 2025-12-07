@@ -12,7 +12,7 @@ export default function Act() {
                     GTGuessr Web Developer
                 </div>
                 <div className="font-semibold text-[15px] text-foreground text-right">
-                    Sept. 2025 - Present
+                    Sep. 2025 - Present
                 </div>
             </div>
 
@@ -40,7 +40,7 @@ export default function Act() {
 
             <div className="flex flex-col text-right">
                 <div className="font-semibold text-[15px] text-foreground">
-                    Sept. 2025 - Present
+                    Sep. 2025 - Present
                 </div>
                 <div className="font-normal text-[15px] text-alt-foreground ">
                     First Violinist
